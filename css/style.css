@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.box {
+    padding: 10px;
+
+}
+
+label {
+    display: block;
+
+}
+
+legend {
+    display: inline-block;
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    border: 2px solid #ddd;
+    background-color: white;
+    padding: 20px;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    border: 2px solid #ddd;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submit {
+    background-color: #6495ED;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+}
+
+/*responsive design*/
+
+/*Tablet - between 25rem and 40rem*/
+@media (min-width: 25rem) {
+    .one {
+
+        width: 50%;
+        float: left;
+    }
+
+    .two {
+        width: 50%;
+        float: right;
+    }
+
+    .three {
+        clear: both;
+    }
+}
+
+/*Desktop - between 40rem and 50rem | max-width: 50rem*/
+@media (min-width: 40rem) {
+    fieldset {
+        max-width: 50rem;
+        margin: auto;
+    }
+}
